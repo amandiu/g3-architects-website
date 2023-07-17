@@ -108,14 +108,14 @@ li > a {
   padding: 100px;
 }
 .TenYearscard {
-  z-index: 5;
-  margin-top: -120px;
+  margin-top: -100px;
   margin-left: -50px;
   width: 250px;
   padding: 20px;
   flex-shrink: 0;
   border-radius: 8px;
   background: #ff900e;
+  position: relative;
 }
 .tenYearscardhead {
   color: #fff;
