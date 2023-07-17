@@ -1,0 +1,398 @@
+/* common Styles */
+* {
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.Primary-Button {
+  border-radius: 8px;
+  background: #ff900e;
+  border-width: 0;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 600;
+  color: aliceblue;
+  margin-top: 20px;
+}
+
+/* Header Styles */
+header {
+  background: rgba(255, 144, 14, 0.1);
+  padding: 20px 120px;
+}
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-title {
+  color: #131313;
+  font-size: 45px;
+  font-weight: 700;
+}
+/* nav Section */
+nav > ul {
+  display: flex;
+}
+ul > li {
+  margin-right: 30px;
+  list-style: none;
+}
+li > a {
+  text-decoration: none;
+  color: #424242;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* banner Section Start */
+
+.banner {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  padding: 0px 200px;
+}
+.banner-Title {
+  color: #131313;
+  font-size: 64px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.banner-Description {
+  color: #727272;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.bannerImg {
+  width: 100%;
+  height: auto;
+}
+
+/* Feature Section Styles */
+.Feature-Title {
+  color: #727272;
+  font-weight: 500;
+  font-size: 45px;
+  font-style: normal;
+  line-height: normal;
+}
+.Our-Features {
+  display: flex;
+  margin-top: 50px;
+  padding: 30px 120px;
+}
+.Feature1 {
+  flex: 2;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.Feature {
+  flex: 2;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+.FeaturesImage {
+  height: auto;
+  width: 48%;
+}
+.SectionFeatures {
+  display: flex;
+  padding: 100px;
+}
+.TenYearscard {
+  z-index: 5;
+  margin-top: -120px;
+  margin-left: -50px;
+  width: 250px;
+  padding: 20px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #ff900e;
+}
+.tenYearscardhead {
+  color: #fff;
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 70px;
+}
+.FeatureLove {
+  padding: 50px;
+  flex: 1;
+}
+.Featureheader-title {
+  color: #131313;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: normal;
+  padding-right: 100px;
+}
+.Featurebanner-Description {
+  color: #727272;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 10px 0px;
+}
+.FeatureLoveheaderBar {
+  height: auto;
+  width: 3px;
+  margin-right: 10px;
+  background-color: #ff900e;
+}
+.FeatureLoveheader {
+  display: flex;
+}
+.FeatureCard {
+  width: 100%;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.FeatureCardHeader {
+  color: #131313;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.FeatureCard-Description {
+  margin-top: 5px;
+  color: #727272;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+/* Some Facts Section Styles */
+.SomeFacts {
+  padding: 10px 500px 10px 150px;
+}
+.SomeFacts-Title {
+  margin-bottom: 10px;
+  color: #131313;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.SomeFactsCardGroup {
+  display: flex;
+  padding: 20px 130px;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+.SomeFactsCard {
+  background: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #ff900e;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-right: 10px;
+}
+.SomeFactsCardnumber {
+  color: #424242;
+  font-size: 45px;
+  font-weight: 600;
+}
+.SomeFactsCardDiscription {
+  color: #727272;
+  font-size: 20px;
+  font-weight: 600;
+}
+.SomeFactsCardTwo {
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+}
+
+/* Our Sponspors Styles */
+
+.OurSponspors {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px 100px;
+}
+.OurSponspors-Description {
+  color: #727272;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 50px;
+  padding: 0px 90px;
+}
+.OurSponsporsGroup {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.OurSponsporsGroups {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.mainFoot {
+  padding: 0px 100px;
+}
+.Footer {
+  border-radius: 8px;
+  background: #fff4e7;
+  padding: 20px 100px;
+  margin-bottom: 100px;
+}
+.Footer-Description {
+  text-align: center;
+  color: #424242;
+  font-size: 20px;
+  font-weight: 400;
+}
+/* Media Section  start*/
+
+/* Small Devise */
+@media screen and (max-width: 300px) {
+  nav > ul {
+    display: block;
+  }
+  .header-title {
+    width: 250px;
+    margin-left: 5%;
+    margin-bottom: 10px;
+  }
+  .header-row {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner {
+    padding: 0px;
+  }
+  .banner-Title {
+    font-size: 24px;
+  }
+  header {
+    padding: 20px;
+  }
+  .Our-Features {
+    display: block;
+    padding: 20px;
+  }
+  .Feature1 {
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 7%;
+  }
+  .SectionFeatures .SomeFactsCardGroup {
+    display: block;
+    padding: 10px;
+  }
+  .FeatureLove .Feature {
+    padding: 0px;
+  }
+  .SomeFacts {
+    padding: 50px;
+  }
+  .SomeFactsCardTwo {
+    margin-bottom: 10px;
+    padding: 0px;
+  }
+  .OurSponspors {
+    padding: 0px;
+  }
+  .OurSponsporsGroup {
+    display: block;
+  }
+  .OurSponsporsGroups {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  .OurSponspors-Description {
+    padding: 10px;
+  }
+  .mainFoot {
+    padding: 10px;
+  }
+  .Footer{
+    padding: 20px;
+  }
+}
+
+/* mediam Devise */
+
+@media screen and (min-width: 300px) and (max-width: 900px) {
+  nav > ul {
+    display: block;
+  }
+
+  .header-row {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner {
+    padding: 0px;
+  }
+  .banner-Title {
+    font-size: 54px;
+  }
+  header {
+    padding: 20px;
+  }
+  .Our-Features {
+    display: block;
+    padding: 20px;
+  }
+  .Feature {
+    padding: 0px;
+  }
+  .SectionFeatures {
+    display: block;
+    padding: 10px;
+  }
+
+  .FeatureLove {
+    padding: 0px;
+  }
+  .SomeFacts {
+    padding: 50px;
+  }
+  .SomeFactsCardGroup {
+    display: block;
+    padding: 0px;
+  }
+  .SomeFactsCardTwo {
+    margin-bottom: 10px;
+    padding: 0px;
+  }
+  
+  .OurSponspors {
+    padding: 0px;
+  }
+  .OurSponsporsGroup {
+    display: block;
+  }
+  .OurSponsporsGroups {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  .OurSponspors-Description {
+    padding: 10px;
+  }
+  .mainFoot {
+    padding: 10px;
+  }
+  .Footer{
+    padding: 20px;
+  }
+}
